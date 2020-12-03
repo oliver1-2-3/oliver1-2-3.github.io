@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Teaching Assistant result</title>
+<style>
+    
+    dt {
+        font-weight: bold;
+    }
+</style>
+    <link type="text/css" rel="stylesheet" href="Teaching%20Assistant%20result.css">
+<script type="text/javascript">
+//<![CDATA[
+var decode = function ( text ) {
+    text = text.replace(/\+/g, " ");
+    text = text.replace(/%[a-fA-F0-9]{2}/g, 
+        function ( text ) {
+            return String.fromCharCode( "0x" + text.substr(1,2));
+        }
+    );
+    return text;
+}
+    
+var display_data = function () {
+    var query = location.search.replace("?", "");
+    if ( query == "" ) return;
+    
+    var fields = query.split("&");
+    
+    if ( fields.length == 0 ) {
+        document.write("<p>No data was submitted.</p>");
+    } else {
+        document.write("<dl>");
+        var field_parts;
+        for ( var i in fields ) {
+            field_parts = fields[i].split("=");
+            field_parts[0] = decode( field_parts[0] );
+            field_parts[1] = decode( field_parts[1] );
+            document.write("<dt>" + field_parts[0] + "</dt>");
+            document.write("<dd>" + field_parts[1] + "</dd>");
+        }
+        document.write("</dl>");
+    }
+}
+//]]>
+</script>
+</head>
+
+<body>
+    <div class="logo">
+            <img src="img/logo1.jpg" width="300px"; height="100px">
+        </div>
+        <div id="menu">
+            <a href="home.html" class="item">Home</a>
+            <a href="Teaching%20Assistant%20Application.html" class="item">Teaching Assistant Application</a>
+            <a href="weather.html" class="item">Weather</a>
+            <a href="My GPA.html" class="item last">My GPA</a>
+        </div>
+    <div id="result">
+    <h1>Teaching Assistant result</h1>
+    <script>display_data();</script>
+    </div>
+    <footer>
+  <p>Name:Jingchao Hu</p>
+  <p>Contact:Tel:+86:17671184270 or Wechat:h1121226029</p>
+  <p>Submission Date:December/3/2020</p>
+
+</footer>
+</body>
+</html>

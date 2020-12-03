@@ -1,0 +1,182 @@
+html,body { height: 100%; }
+body{
+    background-color: white;
+    margin: 0 auto;
+    height: auto;
+}
+#first{
+    height: 105px;
+   width: auto;
+}
+.logo{
+    float: left;
+    padding-left: 20px;
+    width: 100px;
+}
+
+
+#menu{
+    text-align: center;
+    background-color: orange;
+    
+    
+}
+#menu .item{
+    padding: 0 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-right: solid 1px;
+    text-align: center;
+    font-weight: 900;
+   
+}
+#menu .item.last{
+    border-right: none;
+}
+#left{
+    position: absolute;
+    width: 15%;
+    float: left;
+    height: 83.5%;
+    background-color: lightgray;
+    border: 1px solid #000;
+    
+}
+#campus{    
+    height: 30px;
+    width: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    
+}
+#left1{
+    width: auto;
+    margin: auto;
+    background-color: lightgray;
+      
+}
+
+
+#left1 .item3{
+    float: left;
+    padding-left: 90px;
+    padding-top: 17px;
+    width: 30px;
+}
+#left1 .item3.first{
+    width: 32px;
+    
+}
+
+#left1 .item2{
+    font-size: 20px;
+    text-decoration:none;
+    color: black;
+    padding-left: 20px;
+    line-height: 70px;  
+    font-weight: 900;
+}
+
+#middle1{
+    position: absolute;
+    float: left;
+    width: 40%;
+    margin-left: 25%;
+    background-color: lightgray;
+    height: 50%;
+    border: 1px solid #000;
+    height: 83.5%;
+    
+}
+.Announcement{
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: auto;
+    height: 30px;
+    
+    
+}
+
+
+#middle1 .information{
+    background-color: lightgray;
+    color: black;
+    height: 628px;
+    font-size:20px;
+    line-height: 70px;
+    
+    text-decoration: underline;
+  
+}
+.information a{
+    color: black;
+    margin-left: 5%;
+    font-weight: 900;
+}
+
+
+.tower{
+    float: left;
+    width: 23%;
+    height: 628px;
+    position: relative;
+    border: solid 1px;
+    border-right: none;
+}
+#right1{
+    position: absolute;
+    width: 20%;
+    float: left;
+    margin-left: 80%;
+    text-align: center;
+    background-color: lightgray;
+    height: 83.6%;
+}
+.Activities{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 30px;
+    
+    
+    
+}
+#image_list {
+    font-size:20px;
+    margin: 0 auto; 
+}
+#image_list a{
+    font-weight: 900;
+    color: black;
+}
+
+
+
+
+
+li {
+	padding: 0 0.25em;
+	display: inline;
+}
+#caption, #gallery {
+	text-align: center;
+}
+
+
+footer{
+    clear: both;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: orange;
+    width: 100%;
+    line-height: 9px;
+    font-weight: 900;
+    
+}

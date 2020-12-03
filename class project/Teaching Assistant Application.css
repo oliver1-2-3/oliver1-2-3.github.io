@@ -1,0 +1,96 @@
+body{
+    background-color: white;
+    margin: 0 auto;
+    height: 105px;
+    
+}
+.logo{
+    padding-left: 20px;
+}
+#menu{
+    text-align: center;
+    background-color: orange;
+    
+}
+#menu .item{
+    padding: 0 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-right: solid 1px;
+    text-align: center;
+   font-weight: 900;
+}
+#menu .item.last{
+    border-right: none;
+}
+    	
+	
+		
+		h1 {
+			color: blue; 
+			font-size: 140%;
+		}
+		h2 {
+			font-size: 115%;
+			padding: .5em 0;
+		}
+		label {
+			color: black;
+			float: left;
+			width: 8em;
+			text-align: left;
+		}
+		input {
+			width: 15em;
+			margin: 0 0 .5em 1em;
+            
+		}
+		#button, #reset {
+			width: 7em;
+			background-color: silver;
+			box-shadow: 2px 2px 0 blue; }
+		#button {
+			margin-left: 9em;
+		}
+        
+        
+        
+#framework{
+            font-size: 20px;
+			width: 50%;
+		    margin: 20px auto;
+            padding: 70px;
+		    padding-left: 00px;
+		    border: 2px solid black;
+            
+}
+.background{
+    float: left;
+    padding-left: 10%;
+    padding-top: 4%;
+    width: 17%;
+      
+   
+}
+#framework1 {
+    padding-left: 40%;
+   
+    
+    
+    
+}
+
+footer{
+    clear: both;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: orange;
+    width: 100%;
+    font-weight: 900;
+    line-height: 9px;
+    
+    
+}
